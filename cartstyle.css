@@ -1,0 +1,59 @@
+form {
+	margin: 30px auto;
+	width: 400px;
+	color: rgba(255, 255, 255, 0.4);
+}
+
+input, h4 {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  background: transparent;
+  font-size: 26px;
+  font-family: Haettenschweiler;
+}
+
+
+input[type="text"] {
+	display: block;
+	margin-bottom: 25px;
+	width: 100%;
+	border: 2px solid black;
+	color: #C91F0B;
+}
+
+input[type="radio"] {
+	margin: 0;
+	font-family: Haettenschweiler, Consolas;
+	
+}
+
+#other {
+	margin: auto;
+	font-family: Haettenschweiler, Consolas;
+	font-size: 20px;
+	text-align: center;
+}
+
+input[type="radio"] :first-child {
+	margin-left: 0;
+}
+
+input[type="submit"] {
+	width: 200px;
+	height: 80px;
+	background: black;
+	color: #C91F0B;
+	margin-left: 100px;
+}
+
+input:focus {
+	background: black;
+}
+
+input[type="radio"]:checked + label {
+	font-weight: bold;
+	font-size: 18px;
+}

@@ -1,0 +1,41 @@
+/* button */
+html {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+/* center button */
+body {
+	text-align: center;
+}
+
+a {
+	text-decoration: inherit;
+}
+
+.button {
+	color: #C91F0B;
+	font-family: "Haettenschweiler";
+	font-weight: 150;
+	font-size: 60px;
+	text-align: center;
+	
+	border: solid 2px #C91F0B;
+	border-radius: 10px;
+	
+	padding: 10px 80px;
+	
+	-webkit-transition-duration: 200ms;
+	transition-duration: 200ms;
+	
+}
+
+.button: hover {
+	background-color: #C91F0B;
+	color: #fff;
+}
